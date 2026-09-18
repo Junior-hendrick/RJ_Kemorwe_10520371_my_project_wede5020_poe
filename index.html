@@ -1,76 +1,112 @@
-<header>
-    <div class="logo">
-        <h1>KEMO CITRUS</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kemero Citrus - quality citrus products from a South African citrus farm.">
+    <title>Kemo Citrus | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <!-- Site logo: clicking the logo returns the user to the Home page. -->
+        <a class="logo" href="index.html">KEMO CITRUS</a>
+                <!--
+            MAIN NAVIGATION
+            Home: returns to the website home page.
+            About Us: opens the company history, mission and vision.
+            Products: shows the available citrus products.
+            Services: shows citrus supply, bulk orders and partnerships.
+            Gallery: displays farm and citrus images.
+            News & Updates: displays farm updates, harvest information and announcements.
+            Contact: opens the contact details and enquiry form.
+        -->
+        <nav class="main-nav" aria-label="Main navigation">
+            <!-- Navigation link: Home (current page) -->
+<a class="active" href="index.html">Home</a>
+            <!-- Navigation link: About Us -->
+<a href="about.html">About Us</a>
+            <!-- Navigation link: Products -->
+<a href="products.html">Products</a>
+            <!-- Navigation link: Services -->
+<a href="services.html">Services</a>
+            <!-- Navigation link: Gallery -->
+<a href="gallery.html">Gallery</a>
+            <!-- Navigation link: News & Updates -->
+<a href="news.html">News & Updates</a>
+            <!-- Navigation link: Contact -->
+<a href="contact.html">Contact</a>
+        </nav>
     </div>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="products.html">Products</a>
-        <a href="services.html">Services</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="news.html">News & Updates</a>
-        <a href="contact.html">Contact</a>
-    </nav>
 </header>
 
 <main>
-
     <section class="hero">
-        <div>
+        <div class="hero-content">
             <h2>Fresh Citrus From Our Farm</h2>
-            <p>
-                Quality, naturally grown citrus products from Kemo Citrus.
-            </p>
-            <a href="products.html" class="button">View Our Products</a>
+            <p>Quality citrus products with a focus on freshness, reliability and sustainable growth.</p>
+
+            <div class="hero-actions">
+                <!-- Call-to-action navigation: takes visitors to the Products page. -->
+                <a class="button" href="products.html">View Products</a>
+                <!-- Call-to-action navigation: takes visitors to the Contact page. -->
+                <a class="button button-secondary" href="contact.html">Contact Us</a>
+            </div>
         </div>
     </section>
 
-    <section class="content">
-        <h2>Welcome to Kemo Citrus</h2>
-        <p>
-            Kemo Citrus is a South African citrus farming organisation
-            focused on producing quality and fresh citrus products.
-            We are committed to providing customers with reliable,
-            high-quality produce.
-        </p>
-
-        <a href="about.html" class="button">Learn More About Us</a>
-    </section>
-
-    <section class="content">
-        <h2>Our Products</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <img src="images/oranges.jpg" alt="Fresh oranges">
-                <h3>Oranges</h3>
-                <p>Fresh and naturally grown oranges.</p>
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Welcome to Kemo Citrus</h2>
+                <p>Discover our story, products and services through a simple and user-friendly website.</p>
             </div>
-
-            <div class="card">
-                <img src="images/lemons.jpg" alt="Fresh lemons">
-                <h3>Lemons</h3>
-                <p>Fresh lemons suitable for different uses.</p>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Quality Products</h3>
+                    <p>Explore our range of citrus products and product information.</p>
+                </article>
+                <article class="card">
+                    <h3>Our Story</h3>
+                    <p>Learn about the organisation, its vision, mission and values.</p>
+                </article>
+                <article class="card">
+                    <h3>Easy Enquiries</h3>
+                    <p>Use the contact page to ask questions or enquire about products.</p>
+                </article>
             </div>
-
-            <div class="card">
-                <img src="images/mandarins.jpg" alt="Fresh mandarins">
-                <h3>Mandarins</h3>
-                <p>Fresh and delicious mandarins.</p>
-            </div>
-
         </div>
-
-        <a href="products.html" class="button">View All Products</a>
     </section>
-
 </main>
 
-<footer>
-    <p>&copy; 2026 Kemo Citrus. All Rights Reserved.</p>
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h3>Kemo Citrus</h3>
+                <p>A South African citrus farming organisation focused on quality and sustainable growth.</p>
+            </div>
+            <div>
+                <h3>Pages</h3>
+                <div class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="products.html">Products</a>
+                    <a href="services.html">Services</a>
+                </div>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <div class="footer-links">
+                    <a href="contact.html">Contact Us</a>
+                    <a href="news.html">News & Updates</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Kemo Citrus. All Rights Reserved.</p>
+        </div>
+    </div>
 </footer>
-
 </body>
 </html>
